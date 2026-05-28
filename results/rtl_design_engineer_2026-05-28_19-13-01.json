@@ -1,0 +1,2746 @@
+{
+  "role": "RTL Design Engineer",
+  "searched_at": "2026-05-28_19-13-01",
+  "jobs": [
+    {
+      "rank": 1,
+      "score": 79.9,
+      "title": "RTL Design Engineer, Google Cloud",
+      "company": "Google",
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4399650190",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 2,
+      "score": 79.9,
+      "title": "Senior RTL Design Engineer",
+      "company": "Synopsys Inc",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4418554724",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 3,
+      "score": 76.4,
+      "title": "RTL Design(Turing-AI/ML)-Sr Engineer/Sr Lead",
+      "company": "Qualcomm",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 5,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4321688090",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.848,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 4,
+      "score": 75.6,
+      "title": "RTL Design -Sr Engineer",
+      "company": "Qualcomm",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4417150488",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 5,
+      "score": 75.6,
+      "title": "TPU RTL Design Engineer",
+      "company": "Google",
+      "location": "Sunnyvale, CA",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4417175088",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 6,
+      "score": 74.8,
+      "title": "RTL Design Engineer -Sr Lead",
+      "company": "Qualcomm",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 7,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4407006171",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.794,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 7,
+      "score": 74.8,
+      "title": "CPU RTL Design - Sr Eng/Lead/Staff/Sr Staff",
+      "company": "Qualcomm",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 7,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4416584063",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.794,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 8,
+      "score": 74.1,
+      "title": "CPU RTL Design Engineer - Staff / Sr Staff",
+      "company": "Qualcomm",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 8,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4416181341",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.768,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 9,
+      "score": 74.1,
+      "title": "RTL Design - Sr Lead Engineer",
+      "company": "Qualcomm",
+      "location": "Noida, Uttar Pradesh, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 8,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4406547339",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.768,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 10,
+      "score": 72.6,
+      "title": "RTL Design Engineer",
+      "company": "AMD",
+      "location": "Hyderabad, Telangana, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 10,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412840504",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.719,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 11,
+      "score": 72.6,
+      "title": "RTL Design (NOC) - Sr Staff Engineer",
+      "company": "Qualcomm",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 10,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4415663895",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.719,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 12,
+      "score": 71.9,
+      "title": "RTL Design Engineer - CPU / Low-Power / High-Performance",
+      "company": "European Tech Recruit",
+      "location": "Cambridge, England, UK",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 11,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4416036154",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.696,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 13,
+      "score": 71.3,
+      "title": "RTL Design Engineer",
+      "company": "Intel",
+      "location": "Phoenix, AZ",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 12,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4405362954",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.673,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 14,
+      "score": 70.6,
+      "title": "RTL Design Engineer - Early Career",
+      "company": "Marvell Technology",
+      "location": "Westborough, MA",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 13,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411564633",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.651,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 15,
+      "score": 70.0,
+      "title": "RTL Design Principal Engineer",
+      "company": "Marvell Technology",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 14,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411545380",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.63,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 16,
+      "score": 70.0,
+      "title": "RTL Design Engineer",
+      "company": "eInfochips (An Arrow Company)",
+      "location": "Mountain View, CA",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 14,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414767084",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.63,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 17,
+      "score": 69.4,
+      "title": "RTL Design Engineer",
+      "company": "Apple",
+      "location": "London, England, UK",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 15,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414160629",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.61,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 18,
+      "score": 69.4,
+      "title": "Senior RTL Design Engineer",
+      "company": "Sequans Communications",
+      "location": "Paris, \u00cele-de-France, France",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 15,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413956640",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.61,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 19,
+      "score": 68.8,
+      "title": "RTL Design Engineer, Cloud Silicon",
+      "company": "Google",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 16,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413545509",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.59,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 20,
+      "score": 68.8,
+      "title": "FPGA RTL Design Engineer",
+      "company": "Epergne Solutions",
+      "location": "Noida, Uttar Pradesh, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 16,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4413290428",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.59,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 21,
+      "score": 68.8,
+      "title": "RTL IP Design Engineer",
+      "company": "AMD",
+      "location": "Hyderabad, Telangana, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 16,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4309946380",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.59,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 22,
+      "score": 68.3,
+      "title": "RTL Design Engineer Wireless SoC",
+      "company": "Accord Technologies Inc",
+      "location": "Not specified",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 17,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412968296",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.571,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 23,
+      "score": 67.7,
+      "title": "RTL Digital Design Engineer",
+      "company": "Larsen & Toubro",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 18,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4365517582",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.552,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 24,
+      "score": 66.7,
+      "title": "Senior RTL Design Engineer",
+      "company": "Larsen & Toubro",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 20,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4403444021",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.517,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 25,
+      "score": 66.7,
+      "title": "RTL Design Engineer",
+      "company": "Nsemi Design Services India Pvt Ltd",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 20,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4411053502",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.517,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 26,
+      "score": 66.7,
+      "title": "SoC RTL Design- Staff Engineer",
+      "company": "Qualcomm",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 20,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4390737520",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.517,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 27,
+      "score": 66.2,
+      "title": "RTL Design Engineer - MTS",
+      "company": "Micron Technology",
+      "location": "Hyderabad, Telangana, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 21,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4410848224",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.5,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 28,
+      "score": 64.7,
+      "title": "ASIC RTL Design Engineer",
+      "company": "Tesla",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": null,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4420213866",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.45,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 29,
+      "score": 64.7,
+      "title": "IP RTL Design Engineer",
+      "company": "Intel",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": null,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4418824983",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.45,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 30,
+      "score": 64.7,
+      "title": "RTL design Engineer with UPF ( Unified Power Format )",
+      "company": "AMD",
+      "location": "Hyderabad, Telangana, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": null,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4409255291",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.45,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 31,
+      "score": 64.7,
+      "title": "RTL Design(GPU) - Sr Lead Engineer",
+      "company": "Qualcomm",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": null,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4326197729",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.45,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 32,
+      "score": 64.7,
+      "title": "Staff ASIC RTL Design (Turing) - Engineer",
+      "company": "Qualcomm",
+      "location": "Noida, Uttar Pradesh, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": null,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4389597375",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.45,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 33,
+      "score": 64.7,
+      "title": "ASIC RTL Design Engineer, AI Hardware",
+      "company": "Tesla",
+      "location": "Palo Alto, CA",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": null,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4420210854",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.45,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 34,
+      "score": 64.7,
+      "title": "MTS- RTL Design Engineer",
+      "company": "Mulya Technologies",
+      "location": "Not specified",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": null,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4417084317",
+      "description": "nan",
+      "scores": {
+        "relevance": 1.0,
+        "salary": 0.35,
+        "recency": 0.45,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 35,
+      "score": 61.2,
+      "title": "RTL Digital Design Engineer for analog mixed signal IP/IC.",
+      "company": "Larsen & Toubro",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 15,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4365528024",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.8,
+        "salary": 0.35,
+        "recency": 0.61,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 36,
+      "score": 58.4,
+      "title": "Physical Design Engineer with RTL Design Background",
+      "company": "Texas Instruments India",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4418271266",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.5,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 37,
+      "score": 51.3,
+      "title": "Design Engineer - Advance Program",
+      "company": "Ahram Security Group",
+      "location": "10th of Ramadan, Sharkia, Egypt",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 11,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412219384",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.5,
+        "salary": 0.35,
+        "recency": 0.696,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 38,
+      "score": 49.4,
+      "title": "Design Engineer",
+      "company": "Tata Technologies",
+      "location": "Pune District, Maharashtra, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 14,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4414602244",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.5,
+        "salary": 0.35,
+        "recency": 0.63,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 39,
+      "score": 46.1,
+      "title": "Graduate Design Engineer (Architecture)",
+      "company": "Ernest Gordon Recruitment",
+      "location": "London, England, UK",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4419436629",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.2,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 40,
+      "score": 44.4,
+      "title": "Frontend Software Architect - Vault Platform",
+      "company": "Veeva Systems",
+      "location": "Remote, US",
+      "remote": true,
+      "salary_min": 180000,
+      "salary_max": 300000,
+      "posted_days_ago": 8,
+      "source": "indeed",
+      "url": "https://www.indeed.com/viewjob?jk=db5df88a58736799",
+      "description": "Veeva Systems is a mission\\-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest\\-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead.  \n\n\nAt the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company \u2013 we made history in 2021 by becoming a public benefit corpor",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.571,
+        "recency": 0.768,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 41,
+      "score": 44.1,
+      "title": "Design Engineer",
+      "company": "Indovance Inc",
+      "location": "Pune Division, Maharashtra, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": null,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4417248727",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.5,
+        "salary": 0.35,
+        "recency": 0.45,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 42,
+      "score": 43.9,
+      "title": "Senior Embedded Software Designer",
+      "company": "Kepler Communications",
+      "location": "Remote, US",
+      "remote": true,
+      "salary_min": 159288,
+      "salary_max": 209288,
+      "posted_days_ago": 17,
+      "source": "indeed",
+      "url": "https://www.indeed.com/viewjob?jk=8a45496d658a6e5e",
+      "description": "**At** **Kepler Communications****, we're not just imagining the future of on\\-demand space connectivity \\-** ***we're leading it!***\n\nOur mission is to provide real\\-time Internet access for space\\-based assets, enabling a new era of data\\-driven exploration and innovation. With **33 satellites launched to date***,* Kepler operates the first commercial optical data relay constellation, enabling real\\-time, continuous space communications while supporting advanced on\\-orbit compute and hosted pa",
+      "scores": {
+        "relevance": 0.2,
+        "salary": 0.473,
+        "recency": 0.571,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 43,
+      "score": 41.3,
+      "title": "Senior Security Engineer, GRC Automation",
+      "company": "1Password",
+      "location": "Canada,  USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144932-senior-security-engineer-grc-automation",
+      "description": "1Password is growing. We\u2019ve surpassed $400M in ARR and we\u2019re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 44,
+      "score": 41.3,
+      "title": "Senior Analytics Engineer",
+      "company": "Reddit",
+      "location": "Canada",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144925-senior-analytics-engineer-2",
+      "description": "Reddit is a community of communities. It\u2019s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 45,
+      "score": 41.3,
+      "title": "Analytics Engineer",
+      "company": "Reddit",
+      "location": "Canada",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144924-analytics-engineer",
+      "description": "Reddit is a community of communities. It\u2019s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 46,
+      "score": 41.3,
+      "title": "Field Marketing Manager \u2013 Nordics & Benelux",
+      "company": "Chainguard",
+      "location": "Denmark,  Netherlands,  Sweden",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144916-field-marketing-manager-nordics-benelux",
+      "description": "Chainguard is the trusted source for open source. By delivering hardened, secure, and production-ready builds of all the open source software engineers and AI agents rely on, Chainguard helps organizations...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 47,
+      "score": 41.3,
+      "title": "Onboarding Project Manager",
+      "company": "Cloudbeds",
+      "location": "Europe",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144915-onboarding-project-manager",
+      "description": "What Makes Us Unique\u00a0 At Cloudbeds, we&#8217;re not just building software, we\u2019re transforming hospitality. Our intelligently designed platform powers properties across 150 countries, processing billions in bookings annually. From independent...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 48,
+      "score": 41.3,
+      "title": "Onboarding Project Manager \u2013 Europe",
+      "company": "Cloudbeds",
+      "location": "Europe",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144914-onboarding-project-manager-europe",
+      "description": "What Makes Us Unique\u00a0 At Cloudbeds, we&#8217;re not just building software, we\u2019re transforming hospitality. Our intelligently designed platform powers properties across 150 countries, processing billions in bookings annually. From independent...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 49,
+      "score": 41.3,
+      "title": "Quality Assurance Engineer",
+      "company": "Hubstaff",
+      "location": "Argentina,  Brazil,  Poland,  Portugal,  Romania,  Spain",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144913-quality-assurance-engineer",
+      "description": "Quality Assurance EngineerCompany OverviewAt Hubstaff, our mission is to empower people to have their most productive workday. We do this by providing the industry-leading workforce analytics and time tracking platform...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 50,
+      "score": 41.3,
+      "title": "Senior Android Engineer",
+      "company": "MLabs",
+      "location": "Germany",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144909-senior-android-engineer-2",
+      "description": "Location:\u00a0Remote &#8211; EU remoteRemote\u00a0| Full-timeCompensation:\u00a0\u20ac90K &#8211; \u20ac110KWe are hiring on behalf of our client, a high-growth, venture-backed financial technology organization who is seeking an exceptional Senior Android Engineer to join...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 51,
+      "score": 41.3,
+      "title": "QA Engineer",
+      "company": "Cortes 23",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/cortes-23-qa-engineer",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0141/7281/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> Remote\n    <br /><strong>URL:</strong> <a href=\"https://cortes23.com\">https://cortes23.com</a>\n</p>\n\n<div>Are you an experienced QA engineer with a proven record of success, looking for a new and exciting challenge? Do you want to be part of an industry disruptor? If so, we could have the opportunity for you.</div>\n<div>&nbsp;</d",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 52,
+      "score": 40.3,
+      "title": "Senior Full Stack Engineer, Insights",
+      "company": "StackAdapt",
+      "location": "Canada",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144876-senior-full-stack-engineer-insights",
+      "description": "StackAdapt is the leading technology company that empowers marketers to reach, engage, and convert audiences with precision. With 465 billion automated optimizations per second, the AI-powered StackAdapt Marketing Platform seamlessly...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 53,
+      "score": 40.3,
+      "title": "Senior AI Engineer",
+      "company": "GitLab",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144874-senior-ai-engineer-4",
+      "description": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 54,
+      "score": 40.3,
+      "title": "Customer Growth Manager",
+      "company": "Cloudbeds",
+      "location": "LATAM",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144857-customer-growth-manager-2",
+      "description": "What Makes Us Unique\u00a0 At Cloudbeds, we&#8217;re not just building software, we\u2019re transforming hospitality. Our intelligently designed platform powers properties across 150 countries, processing billions in bookings annually. From independent...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 55,
+      "score": 40.3,
+      "title": "Senior Architectural Designer, Data Centers \u2013 Remote (U.S.)",
+      "company": "AECOM",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "jobicy",
+      "url": "https://jobicy.com/jobs/144854-senior-architectural-designer-data-centers-remote-u-s-2",
+      "description": "Company DescriptionWork with Us. Change the World.At AECOM, we&#8217;re delivering a better world. Whether improving your commute, keeping the lights on, providing access to clean water, or transforming skylines, our...",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 56,
+      "score": 40.3,
+      "title": "Staff Software Engineer",
+      "company": "Compound Planning",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/compound-planning-staff-software-engineer",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/5329/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> Remote\n    <br /><strong>URL:</strong> <a href=\"http://withcompound.com\">http://withcompound.com</a>\n</p>\n\n<p><strong>Overview:</strong><em>&nbsp;</em></p><p>At Compound Planning, we\u2019re building the next-generation financial planning platform, and we need software engineers to help deliver that vision. As a <strong>Staff Software",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 57,
+      "score": 40.3,
+      "title": "Senior Webflow Designer",
+      "company": "LawnStarter",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/lawnstarter-senior-webflow-designer-5",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/5327/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> Colorado, United States\n    <br /><strong>URL:</strong> <a href=\"http://lawnstarter.com\">http://lawnstarter.com</a>\n</p>\n\n<p><strong>About LawnStarter</strong></p>\n<p>LawnStarter is the nation's leading on-demand marketplace for lawn care and related services, with over $100M in annual bookings. We're expanding beyond lawn care t",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 58,
+      "score": 39.7,
+      "title": "Technical Support Analyst - Operations (m/f/d)",
+      "company": "Korial",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 0,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/korial-technical-support-analyst-operations-m-f-d",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 1.0,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 59,
+      "score": 39.7,
+      "title": "Mac MSP Help Desk Guru (work from home)",
+      "company": "Ignition, Inc.",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 0,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/ignition-inc-mac-msp-help-desk-guru-work-from-home",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 1.0,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 60,
+      "score": 39.7,
+      "title": "Marketing Coordinator",
+      "company": "Tablet Command, Inc.",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 0,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/tablet-command-inc-marketing-coordinator",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 1.0,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 61,
+      "score": 39.7,
+      "title": "Freelance Social Media Community Manager",
+      "company": "MB Social",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 0,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/mb-social-freelance-social-media-community-manager",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 1.0,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 62,
+      "score": 38.8,
+      "title": "PE Design Engineer-Power Converter",
+      "company": "Larsen & Toubro",
+      "location": "Bengaluru, Karnataka, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4419599978",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 63,
+      "score": 38.8,
+      "title": "Marketing Data Scientist",
+      "company": "Toptal",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/toptal-marketing-data-scientist",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 64,
+      "score": 38.8,
+      "title": "Senior Financial Analyst",
+      "company": "Lula Commerce",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/lula-commerce-senior-financial-analyst",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 65,
+      "score": 38.8,
+      "title": "Creative Producer",
+      "company": "WallStreetQuants",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 1,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/wallstreetquants-creative-producer",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.968,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 66,
+      "score": 37.8,
+      "title": "100% Remoto - CRM Analista S\u00eanior (Marketing Cloud)",
+      "company": "Cadastra",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/cadastra-100-remoto-crm-analista-senior-marketing-cloud",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 67,
+      "score": 37.8,
+      "title": "Analista de Sistemas CRM S\u00eanior",
+      "company": "frete.com",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/frete-com-analista-de-sistemas-crm-senior",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 68,
+      "score": 37.8,
+      "title": "Strategic Account Executive",
+      "company": "BuildOps",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/buildops-strategic-account-executive",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 69,
+      "score": 37.8,
+      "title": "Salesforce Analyst Sr",
+      "company": "MATH",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/math-salesforce-analyst-sr",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 70,
+      "score": 37.8,
+      "title": "Analista De Crm Pleno - Afirmativa Para Pessoas Negras",
+      "company": "Qive",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/qive-analista-de-crm-pleno-afirmativa-para-pessoas-negras",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 71,
+      "score": 37.8,
+      "title": "Catalog Analyst",
+      "company": "Podean",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/podean-catalog-analyst",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 72,
+      "score": 37.8,
+      "title": "Business Development Representative",
+      "company": "Togetherhood",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/togetherhood-business-development-representative",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 73,
+      "score": 37.8,
+      "title": "Social Commerce Coordinator",
+      "company": "Podean",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/podean-social-commerce-coordinator",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 74,
+      "score": 37.8,
+      "title": "Test Lead / Test Manager",
+      "company": "knowmad mood",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/knowmad-mood-test-lead-test-manager",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 75,
+      "score": 37.8,
+      "title": "Senior Google Ads Account Manager - Remote",
+      "company": "Lead Ember",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/lead-ember-senior-google-ads-account-manager-remote",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 76,
+      "score": 37.8,
+      "title": "Social Media Assistant (USA-based, German-speaking required)",
+      "company": "MiJu Social Media GmbH",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 2,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/miju-social-media-gmbh-social-media-assistant-usa-based-german-speaking-required",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.936,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 77,
+      "score": 37.7,
+      "title": "Senior Software Engineer, Web",
+      "company": "Speechify Inc",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 5,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/speechify-inc-senior-software-engineer-web-1",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> Florida\n    <br /><strong>URL:</strong> <a href=\"http://www.speechify.com\">http://www.speechify.com</a>\n</p>\n\n<div><strong><br>Overview<br></strong></div>\n<div>With that growth comes the need for a Javascript Engineer to join the existing Web team and continue supporting the growing user base as well as building new and exciting features.</div>\n<div>&nbsp;</div>\n<div>This is a key role and ideal for someone who thinks strategically, enjoys high-pace environ",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.848,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 78,
+      "score": 37.7,
+      "title": "Senior DevOps Engineer - Migraciones CI/CD (Remoto 100%)",
+      "company": "Knowmad Mood",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 5,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/knowmad-mood-senior-devops-engineer-migraciones-ci-cd-remoto-100",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> Calle Jacinto Benavente, 2 Las Rozas de Madrid, Espa\u00f1a, 28232 Spain\n</p>\n\n<br><div class=\"mx-auto max-w-750 prose font-company-body overflow-hidden break-words [&amp;_ol_li_li]:list-[lower-alpha]\"><br><p>\u00a1Hola! </p><p>Sabemos que   , s\u00ed, no lo niegues, est\u00e1s explorando nuevos proyectos ofertas y empresas, algo te gustar\u00eda cambiar. Nos gustar\u00eda que, en esta oferta de empleo pares,    directamente a las responsabilidades, conocimientos, y todas esas cosas que",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.848,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 79,
+      "score": 37.3,
+      "title": "Staff Embedded Software Designer",
+      "company": "Kepler Communications",
+      "location": "Remote, US",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 18,
+      "source": "indeed",
+      "url": "https://www.indeed.com/viewjob?jk=a922c3d7496de023",
+      "description": "**At** **Kepler Communications****, we're not just imagining the future of on\\-demand space connectivity \\-** ***we're leading it!***\n\nOur mission is to provide real\\-time Internet access for space\\-based assets, enabling a new era of data\\-driven exploration and innovation. With **33 satellites launched to date***,* Kepler operates the first commercial optical data relay constellation, enabling real\\-time, continuous space communications while supporting advanced on\\-orbit compute and hosted pa",
+      "scores": {
+        "relevance": 0.2,
+        "salary": 0.35,
+        "recency": 0.552,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 80,
+      "score": 36.9,
+      "title": "Senior Fullstack Engineer \u2014 Produtos Financeiros (Miniapps)",
+      "company": "Rock Encantech",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/rock-encantech-senior-fullstack-engineer-produtos-financeiros-miniapps",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> BR\n    <br /><strong>URL:</strong> <a href=\"http://rockencantech.com.br\">http://rockencantech.com.br</a>\n</p>\n\n<div><div>\n<div>\n<h1><span lang=\"PT-BR\" xml:lang=\"PT-BR\">Construa </span><span lang=\"PT-BR\" xml:lang=\"PT-BR\">experi\u00eancias financeiras digitais de ponta a ponta</span>&nbsp;</h1>\n</div>\n<div>\n<p><span lang=\"PT-BR\" xml:lang=\"PT-BR\">A&nbsp;</span><span lang=\"PT-BR\" xml:lang=\"PT-BR\">Akropoli</span><span lang=\"PT-BR\" xml:lang=\"PT-BR\">&nbsp;est\u00e1 desenvol",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 81,
+      "score": 36.9,
+      "title": "Profissional Web Designer S\u00eanior",
+      "company": "Radix",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/radix-profissional-web-designer-senior-1",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> BR\n    <br /><strong>URL:</strong> <a href=\"http://radixeng.com.br\">http://radixeng.com.br</a>\n</p>\n\n<div><div>\n<div>\n<p><span lang=\"PT-BR\" xml:lang=\"PT-BR\">A primeira coisa que voc\u00ea precisa saber \u00e9 que aqui voc\u00ea n\u00e3o vai cair na rotina. A Radix desenvolve solu\u00e7\u00f5es para empresas de diferentes setores e ind\u00fastrias. Cada projeto tem suas tecnologias, solu\u00e7\u00f5es e prazos e voc\u00ea ter\u00e1 oportunidade de atuar e experimentar diferentes desafios. Al\u00e9m da nossa atua\u00e7\u00e3o p",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 82,
+      "score": 36.9,
+      "title": "Staff Software Engineer - AI Website Builder - US (Remote)",
+      "company": "Luxury Presence",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/luxury-presence-staff-software-engineer-ai-website-builder-us-remote",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/5219/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> United States\n    <br /><strong>URL:</strong> <a href=\"http://luxurypresence.com\">http://luxurypresence.com</a>\n</p>\n\n<div class=\"content\"><div class=\"section-wrapper page-full-width\"><div class=\"section page-centered\"><div><span><strong>Luxury Presence </strong>is building the AI growth platform for real estate. Backed by Bessem",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 83,
+      "score": 36.9,
+      "title": "DevOps Engineer",
+      "company": "Alice",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/alice-devops-engineer",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> BR\n    <br /><strong>URL:</strong> <a href=\"http://alice.com.br\">http://alice.com.br</a>\n</p>\n\n<div><h3>Por que isso n\u00e3o \u00e9 \u201cs\u00f3 mais um trabalho\u201d</h3>\n<p>Na Alice, a gente n\u00e3o oferece um lugar para assistir da arquibancada \u2014 voc\u00ea vai entrar na arena de uma das jornadas de crescimento mais ousadas da Am\u00e9rica Latina em tecnologia e sa\u00fade.</p>\n<p>Como Software Engineer, voc\u00ea vai construir tecnologia de ponta com impacto direto em melhorar a vida das pessoas. Se",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 84,
+      "score": 36.1,
+      "title": "Creative Performance Designer",
+      "company": "Nabu Global FZE",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 7,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/nabu-global-fze-creative-performance-designer",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/5218/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> Dubai, UAE\n    <br /><strong>URL:</strong> <a href=\"http://nabuglobal.com\">http://nabuglobal.com</a>\n</p>\n\n<p>We are looking for a <strong>creative, results-driven designer</strong> who understands that great design is not just about aesthetics \u2014 it\u2019s about performance.</p>\n<p>This role is ideal for someone who combines <strong>d",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.794,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 85,
+      "score": 35.2,
+      "title": "Chief Design Engr - CHO Projects Arch ( 82732510 )",
+      "company": "Reliance Industries Limited",
+      "location": "Jamnagar, Gujarat, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 5,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4417543802",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.848,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 86,
+      "score": 35.2,
+      "title": "Junior Full-Stack Developer (Laravel and VueJS)",
+      "company": "Appetiser",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 5,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/appetiser-junior-full-stack-developer-laravel-and-vuejs",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.848,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 87,
+      "score": 35.2,
+      "title": "Product Marketing Manager (B2B for life sciences/pharma/biotech)",
+      "company": "Viseven",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 5,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/viseven-product-marketing-manager-b2b-for-life-sciences-pharma-biotech",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.848,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 88,
+      "score": 35.2,
+      "title": "Director, AI Product Development",
+      "company": "Centralreach",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 5,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/centralreach-director-ai-product-development",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.848,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 89,
+      "score": 35.2,
+      "title": "Product Owner (m/f)",
+      "company": "Iungo Spa",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 5,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/iungo-spa-product-owner-m-f",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.848,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 90,
+      "score": 35.2,
+      "title": "Product Owner Zendesk  Customer Service (m/w/d) // remote m\u00f6glich",
+      "company": "E. Breuninger& Co.",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 5,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/e-breuninger-co-product-owner-zendesk-customer-service-m-w-d-remote-moglich",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.848,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 91,
+      "score": 35.2,
+      "title": "Senior Product Analyst, Remote",
+      "company": "Aledade",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 5,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/aledade-senior-product-analyst-remote",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.848,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 92,
+      "score": 35.2,
+      "title": "Product Manager",
+      "company": "Welocalize",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 5,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/welocalize-product-manager",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.848,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 93,
+      "score": 34.8,
+      "title": "Telecom Design Engineer",
+      "company": "Larsen & Toubro",
+      "location": "Faridabad, Haryana, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 18,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4365460673",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.2,
+        "salary": 0.35,
+        "recency": 0.552,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 94,
+      "score": 34.6,
+      "title": "Senior Software Engineer II",
+      "company": "Nomad",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 9,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/nomad-senior-software-engineer-ii",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/5199/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> Denver CO\n    <br /><strong>URL:</strong> <a href=\"https://nomadlease.com\">https://nomadlease.com</a>\n</p>\n\n<p><strong>About Nomad</strong></p>\n<p>Nomad is unlocking economic opportunity for everyone in the long-term rental community. We offer property owners guaranteed rent and peace of mind, while delivering a better rental exp",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.743,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 95,
+      "score": 34.6,
+      "title": "Lead Product Designer",
+      "company": "Blink Health",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 9,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/blink-health-lead-product-designer",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> United States\n</p>\n\n<div class=\"job__description body\"><div><p><strong>Company Overview:</strong></p><br><p><a href=\"https://www.blinkhealth.com/\">Blink Health </a>is the fastest growing healthcare technology company that builds products to make prescriptions accessible and affordable to everybody.&nbsp; Our two primary products \u2013 BlinkRx and Quick Save \u2013 remove traditional roadblocks within the current prescription supply chain, resulting in better access ",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.743,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 96,
+      "score": 34.6,
+      "title": "DevOps Engineer",
+      "company": "createIT s.c. Borkowski Bartosz, Fredrych Aleksander",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 9,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/createit-s-c-borkowski-bartosz-fredrych-aleksander-devops-engineer",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> Warsaw, 14, Poland\n</p>\n\n<div class=\"sc-1gch2qa-0 fhKCjg\"><div><div class=\"sc-gfrfnr-2 deOrHQ\"></div><div class=\"sc-18h7are-0 ebVyJP\"><div class=\"sc-1tu9fip-2 ezRMeN\"><div class=\"sc-1tu9fip-1 kdUgoN\"><div class=\"sc-1tu9fip-3 iFQjUO\"><div class=\"sc-ji5wy4-0 jIYAZB\"><div><div><div><div><div class=\"sc-1uwf3m5-2 ipgOZn\"><div class=\"sc-1v95195-0 jscoSJ\"><div><div><h2 class=\"sc-1npqnwg-4 sc-1npqnwg-5 sc-1uwf3m5-0 bTeJGh custom-css-style-job-description\">Job descr",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.743,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 97,
+      "score": 34.4,
+      "title": "0726-178583 Contrato indefinido vinculado \u00e1 li\u00f1a de investigaci\u00f3n",
+      "company": "CINTECX",
+      "location": "Vigo, Galicia, Spain",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4417506672",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 98,
+      "score": 34.4,
+      "title": "Interior Cabin Trims",
+      "company": "Tata Technologies",
+      "location": "Pune District, Maharashtra, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4418077223",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 99,
+      "score": 34.4,
+      "title": "[Banco de Talentos] Pessoas com defici\u00eancia",
+      "company": "Conta Azul",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/conta-azul-banco-de-talentos-pessoas-com-deficiencia",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 100,
+      "score": 34.4,
+      "title": "Product Manager, Fraud Solutions",
+      "company": "FIS Capital Markets",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/fis-capital-markets-product-manager-fraud-solutions",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 101,
+      "score": 34.4,
+      "title": "Desenvolvedor Dynamics 365 CE [100% Remota]",
+      "company": "CashMe",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/cashme-desenvolvedor-dynamics-365-ce-100-remota",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 102,
+      "score": 34.4,
+      "title": "Operations Manager (Germany)",
+      "company": "EY",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/ey-operations-manager-germany",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 103,
+      "score": 34.4,
+      "title": "Senior Manager, Finance Strategy & Planning",
+      "company": "Cohesity",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/cohesity-senior-manager-finance-strategy-planning",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 104,
+      "score": 34.4,
+      "title": "Senior Product Manager - Remote - 13.5-18.3k CLT",
+      "company": "Vinta",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/vinta-senior-product-manager-remote-13-5-18-3k-clt",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 105,
+      "score": 34.4,
+      "title": "[Cubos DevOps] Pessoa Engenheira de DevOps Pleno",
+      "company": "Cubos Tecnologia",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/cubos-tecnologia-cubos-devops-pessoa-engenheira-de-devops-pleno",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 106,
+      "score": 34.4,
+      "title": "Profissional IaC| DevOps",
+      "company": "Radix",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/radix-profissional-iac-devops",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 107,
+      "score": 34.4,
+      "title": "[Banco de Talentos] Product Manager Pleno",
+      "company": "Cubos Tecnologia",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/cubos-tecnologia-banco-de-talentos-product-manager-pleno",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 108,
+      "score": 34.4,
+      "title": "[BANCO DE TALENTOS] Product Manager Jr.",
+      "company": "Cubos Tecnologia",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 6,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/cubos-tecnologia-banco-de-talentos-product-manager-jr",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.82,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 109,
+      "score": 33.9,
+      "title": "Blockchain Engineer & Researcher",
+      "company": "FairGambling",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 10,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/fairgambling-blockchain-engineer-researcher",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> \n    <br /><strong>URL:</strong> <a href=\"https://fairgambling.com\">https://fairgambling.com</a>\n</p>\n\n<h1><strong>Blockchain Engineer / Analyst (Remote, Full-time or Contract)</strong></h1><p><strong>About us \u2013 FairGambling</strong> We're a fast-growing platform in the online gaming space. Not a casino ourselves, but the layer on top of it: we review, compare, and analyze operators across the industry, with transparency as the whole point. A lot of what we",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.719,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 110,
+      "score": 33.7,
+      "title": "Senior Front End Engineer",
+      "company": "Avaya",
+      "location": "Remote, US",
+      "remote": true,
+      "salary_min": 128500,
+      "salary_max": 173000,
+      "posted_days_ago": 13,
+      "source": "indeed",
+      "url": "https://www.indeed.com/viewjob?jk=a4768cc378cfa31d",
+      "description": "**About Avaya**\n---------------\n\n\n\nAvaya is an enterprise software leader that helps the world\u2019s largest organizations and government agencies forge unbreakable connections.\n\n\n\nThe Avaya Infinity\u2122 platform unifies fragmented customer experiences, connecting the channels, insights, technologies, and workflows that together create enduring customer and employee relationships.\n\n\n\nWe believe success is built through strong connections \u2013 with each other, with our work, and with our mission. At Avaya,",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.326,
+        "recency": 0.651,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 111,
+      "score": 33.3,
+      "title": "Director, Graphic Design",
+      "company": "Olive June",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 11,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/olive-june-director-graphic-design",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> United States\n</p>\n\n<p><span><span>Title:</span><span>&nbsp;</span><span>Director, Graphic Design (Product/Packaging/Visual Merchandising)</span></span></p><br><p><br></p><br><p><span><span>To Apply:</span><span> Submit resume and design portfolio</span></span></p><br><p><br></p><br><p><span>About Olive &amp; June:&nbsp;</span></p><br><p><span>In 2013, Olive &amp; June opened its first salon in Beverly Hills and elevated the salon experience, giving women p",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.696,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 112,
+      "score": 32.9,
+      "title": "Full-Stack Developer \u2014 .NET + React + Azure \u2014 Remote (US)",
+      "company": "ShiftForce LLC",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 8,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/shiftforce-llc-full-stack-developer-net-react-azure-remote-us",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.768,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 113,
+      "score": 32.9,
+      "title": "Entry-Level Account Manager",
+      "company": "NoGigiddy",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 8,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/nogigiddy-entry-level-account-manager-4",
+      "description": "",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.768,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 114,
+      "score": 32.1,
+      "title": "Trainee Design Engineer - Graphics",
+      "company": "Indovance Inc",
+      "location": "Pune Division, Maharashtra, India",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 9,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4415920553",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.743,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 115,
+      "score": 31.9,
+      "title": "Entry Level UX Design Apprenticeship",
+      "company": "UX Woman",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 13,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/ux-woman-entry-level-ux-design-apprenticeship-2",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> Narberth, PA\n    <br /><strong>URL:</strong> <a href=\"http://www.uxwoman.com\">http://www.uxwoman.com</a>\n</p>\n\n<h4><strong>About the Program:</strong></h4>\n<p>Every year, we sponsor 2 remote UX apprentices from anywhere in the world to join us for 7 months, either in the fall or spring seasons or online. Our UX apprentices work through the end-to-end UX design and UX research process for a startup idea of their choice that will help them attract hiring mana",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.651,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 116,
+      "score": 31.9,
+      "title": "Entry Level Product Design Apprenticeship",
+      "company": "UX Woman",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 13,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/ux-woman-entry-level-product-design-apprenticeship-1",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> Narberth, PA\n    <br /><strong>URL:</strong> <a href=\"http://www.uxwoman.com\">http://www.uxwoman.com</a>\n</p>\n\n<h4><strong>About the Program:</strong></h4>\n<p>Every year, we sponsor 2 remote UX apprentices from anywhere in the world to join us for 7 months, either in the fall or spring seasons or online. Our UX apprentices work through the end-to-end UX design and UX research process for a startup idea of their choice that will help them attract hiring mana",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.651,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 117,
+      "score": 31.4,
+      "title": "CAD Engineering - Student position",
+      "company": "Hillcrest Labs, acquired by CEVA",
+      "location": "Raanana, Center District, Israel",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 10,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4412295241",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.719,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 118,
+      "score": 31.3,
+      "title": "Turkish-Speaking Video & Motion Graphics Designer",
+      "company": "XM",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 14,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/xm-turkish-speaking-video-motion-graphics-designer",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/4671/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> Cyprus or Remote\n    <br /><strong>URL:</strong> <a href=\"https://xm.com\">https://xm.com</a>\n</p>\n\n<div class=\"section page-centered\">\n<div><strong>Turkish-Speaking</strong>&nbsp;<strong>Video &amp; Motion Graphics Designer</strong></div>\n<div>&nbsp;</div>\n<div><strong>The Role:</strong></div>\n<div>&nbsp;</div>\n<div>As a&nbsp;Vid",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.63,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 119,
+      "score": 30.7,
+      "title": "Platform Engineer",
+      "company": "Catamaran Research",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 15,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/catamaran-research-platform-engineer",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/5247/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> \n    <br /><strong>URL:</strong> <a href=\"https://catamaran-research.ai/\">https://catamaran-research.ai/</a>\n</p>\n\n<p><strong>Apply at&nbsp;</strong><a href=\"https://catamaran-research.ai/careers\"><strong>catamaran-research.ai/careers</strong></a><strong>.</strong>&nbsp;Applications through other channels will not be reviewed.</p",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.61,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 120,
+      "score": 30.1,
+      "title": "Brand Designer",
+      "company": "Contra",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 16,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/contra-brand-designer-7",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0083/5744/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> San Francisco, CA\n    <br /><strong>URL:</strong> <a href=\"http://bit.ly/3kLhMdk\">http://bit.ly/3kLhMdk</a>\n</p>\n\n<div class=\"bn-block-outer\">\n<div class=\"bn-block\">\n<div class=\"bn-block-content\">\n<div class=\"bn-inline-content\">\n<p><strong>About&nbsp;Contra&nbsp;Labs</strong></p>\n<p>Contra Labs sits at the intersection of human c",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.59,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 121,
+      "score": 30.1,
+      "title": "Graphic Designer",
+      "company": "Contra",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 16,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/contra-graphic-designer-5",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> San Francisco, CA\n    <br /><strong>URL:</strong> <a href=\"http://bit.ly/3kLhMdk\">http://bit.ly/3kLhMdk</a>\n</p>\n\n<div class=\"bn-block-outer\">\n<div class=\"bn-block\">\n<div class=\"bn-block-content\">\n<div class=\"bn-inline-content\"><strong>About Contra Labs</strong></div>\n</div>\n</div>\n</div>\n<div class=\"bn-block-outer\">\n<div class=\"bn-block\">\n<div class=\"bn-block-content\">\n<div class=\"bn-inline-content\">Contra Labs sits at the intersection of human creativity ",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.59,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 122,
+      "score": 30.1,
+      "title": "Product Designer",
+      "company": "Contra",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 16,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/contra-product-designer-5",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> San Francisco, CA\n    <br /><strong>URL:</strong> <a href=\"http://bit.ly/3kLhMdk\">http://bit.ly/3kLhMdk</a>\n</p>\n\n<div class=\"bn-block-outer\">\n<div class=\"bn-block\">\n<div class=\"bn-block-content\">\n<div class=\"bn-inline-content\"><strong>About Contra Labs</strong></div>\n</div>\n</div>\n</div>\n<div class=\"bn-block-outer\">\n<div class=\"bn-block\">\n<div class=\"bn-block-content\">\n<div class=\"bn-inline-content\">Contra Labs sits at the intersection of human creativity ",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.59,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 123,
+      "score": 30.1,
+      "title": "Staff Software Engineer (Magic Containers)",
+      "company": "bunny.net",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 16,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/bunny-net-staff-software-engineer-magic-containers",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/5141/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> Slovenia\n    <br /><strong>URL:</strong> <a href=\"http://bunny.net\">http://bunny.net</a>\n</p>\n\n<p><strong>Staff&nbsp;Software Engineer (Magic Containers)</strong></p>\n<p>Magic Containers is bunny.net\u2019s edge-native platform for running containerized applications. It\u2019s fast, flexible, and free from traditional cloud complexity. No ",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.59,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 124,
+      "score": 29.1,
+      "title": "Mid-Level Software Engineer",
+      "company": "Computer Systems Center Incorporated",
+      "location": "Remote, US",
+      "remote": true,
+      "salary_min": 90000,
+      "salary_max": 105000,
+      "posted_days_ago": 8,
+      "source": "indeed",
+      "url": "https://www.indeed.com/viewjob?jk=aed5ef5895e489b4",
+      "description": "CSCI is in search of a practiced computer programmer who is comfortable with both front and back\\-end programming. The successful candidate will join a small agile scrum team with both experienced and junior level software developers to provide software application development support for the Joint Strike Fighter (JSF) Next\\-Generation Open Mission Systems (NOMS) enterprise development effort.\n\n\n\nAs a Full stack developer, the successful candidate will be responsible for developing and designing",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.05,
+        "recency": 0.768,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 125,
+      "score": 27.5,
+      "title": "Staff Software Engineer - Data Infrastructure",
+      "company": "Praia Health Inc.",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 21,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/praia-health-inc-staff-software-engineer-data-infrastructure",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/5082/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> Chicago, IL\n    <br /><strong>URL:</strong> <a href=\"https://praiahealth.com\">https://praiahealth.com</a>\n</p>\n\n<div class=\"ATS_htmlPreview\">\n<p>Praia is seeking a Staff Software Engineer to serve as a technical anchor and architect for our core consumer experience platform. In this role, you will establish deep, end-to-end archi",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.5,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 126,
+      "score": 25.5,
+      "title": "design engineer",
+      "company": "Larsen & Toubro",
+      "location": "Not specified",
+      "remote": false,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 20,
+      "source": "linkedin",
+      "url": "https://www.linkedin.com/jobs/view/4403444019",
+      "description": "nan",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.517,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 127,
+      "score": 24.5,
+      "title": "DevOps Engineer (Remote)",
+      "company": "Rhino Partners",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 28,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/rhino-partners-devops-engineer-remote",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> 11 Irving Place, #09-01, Singapore, 369551 Singapore\n</p>\n\n<div class=\"job-details-content content\"><br><div><div><br>We are seeking a DevOps Engineer to support and enhance cloud infrastructure by automating deployments, managing cloud resources, and improving collaboration between development and operations teams. The role focuses on CI/CD pipeline management, infrastructure automation, and Azure-centric cloud operations, with exposure to AWS.<br><br><br>",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.397,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 128,
+      "score": 24.5,
+      "title": "Product Design Lead",
+      "company": "Socket",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 28,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/socket-product-design-lead",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> United States\n</p>\n\n<h1><strong>Who we are</strong></h1><p>Socket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our customers \u2014 from Anthropic to xAI, and Figma to Vercel \u2014 love Socket (just <a href=\"https://socket.dev/love\">check out their tweets</a> to see for yourself!)</p><p><br>Founded by <a class=\"chakra-link css-pmuo56\" href=\"https://www.lin",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.397,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 129,
+      "score": 24.1,
+      "title": "Software Engineer, iOS Core Product",
+      "company": "Speechify",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 29,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/speechify-software-engineer-ios-core-product",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> Remote\n</p>\n\n<p>The mission of Speechify is to make sure that reading is never a barrier to learning.</p><br><p>Over 30 million people use Speechify\u2019s text-to-speech products to turn whatever they\u2019re reading \u2013 PDFs, books, Google Docs, news articles, websites \u2013 into audio, so they can read faster, read more, and remember more. Speechify\u2019s text-to-speech reading products include its iOS app, Android App, Mac App, Chrome Extension, and Web App. Google recentl",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.384,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 130,
+      "score": 23.4,
+      "title": "Backend Engineer, 80-100% (f/m/x)",
+      "company": "comparis.ch",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 31,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/comparis-ch-backend-engineer-80-100-f-m-x",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> Zuerich\n    <br /><strong>URL:</strong> <a href=\"https://en.comparis.ch/\">https://en.comparis.ch/</a>\n</p>\n\n<div class=\"SCXW152853260 BCX8\">\n<div class=\"OutlineElement Ltr SCXW152853260 BCX8\">\n<p class=\"Paragraph SCXW152853260 BCX8\"><span class=\"NormalTextRun SCXW152853260 BCX8\">What you will do</span><span class=\"EOP SCXW152853260 BCX8\">&nbsp;</span></p>\n</div>\n<div class=\"OutlineElement Ltr SCXW152853260 BCX8\">\n<p class=\"Paragraph SCXW152853260 BCX8\"><spa",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.36,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 131,
+      "score": 17.6,
+      "title": "Full Stack AI Engineer",
+      "company": "Reveleer",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 55,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/reveleer-full-stack-ai-engineer",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/4689/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> United States\n    <br /><strong>URL:</strong> <a href=\"https://www.reveleer.com/\">https://www.reveleer.com/</a>\n</p>\n\n<p><strong>Full Stack AI Engineer<br>Remote Opportunity</strong></p>\n<p>As the industry\u2019s pioneering value-based care (VBC) technology platform, Reveleer is purpose-built to solve the most pressing real-world chal",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.163,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 132,
+      "score": 17.6,
+      "title": "AI Research Engineer",
+      "company": "Tether",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 55,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/tether-ai-research-engineer",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/4688/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> El Salvador\n    <br /><strong>URL:</strong> <a href=\"https://careers.tether.io/\">https://careers.tether.io/</a>\n</p>\n\n<div class=\"sc-1fwbcuw-0 kbZOmE\">\n<div>\n<p><strong><em>Why Join Us?</em></strong></p>\n<p>Our team is a global talent powerhouse, working remotely from every corner of the world. If you\u2019re passionate about making a",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.163,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 133,
+      "score": 12.8,
+      "title": "Senior Software Engineer",
+      "company": "Stellar AI",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 218,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/stellar-ai-senior-software-engineer",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0171/2173/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> London\n    <br /><strong>URL:</strong> <a href=\"https://joinstellar.ai/\">https://joinstellar.ai/</a>\n</p>\n\n<div class=\"position-content\">\n<div class=\"position-description\">We are seeking experienced Software Engineers to contribute to projects across a wide range of technologies and programming languages, including JavaScript, Py",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.001,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 134,
+      "score": 12.8,
+      "title": "Senior Software Engineer - Backend/Python - USA Only (100% Remote)",
+      "company": "Close",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 309,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/close-senior-software-engineer-backend-python-usa-only-100-remote-1",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> USA\n    <br /><strong>URL:</strong> <a href=\"http://www.close.com\">http://www.close.com</a>\n</p>\n\n<div><strong>About Us</strong></div>\n<div><a href=\"https://close.com/\">Close</a> is a bootstrapped, profitable, 100% remote, ~100 person team of thoughtful individuals who prioritize taking ownership and making a meaningful impact. We\u2019re eager to make a product our customers fall in love with over and over again.</div>\n<div>&nbsp;</div>\n<div>We \ud83d\udc9b small scaling ",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.0,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 135,
+      "score": 12.8,
+      "title": "Software Engineer, iOS Core Product",
+      "company": "Speechify Inc",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 323,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/speechify-inc-software-engineer-ios-core-product",
+      "description": "\n\n<p>\n  <strong>Headquarters:</strong> Florida\n    <br /><strong>URL:</strong> <a href=\"http://www.speechify.com\">http://www.speechify.com</a>\n</p>\n\n<p><strong>Overview</strong></p>\n<p>With the growth of our iOS app, being the #18 productivity app in the App Store category and also our recent recognition as Apple's 2025 Design Award for inclusivity, we find the need for a Senior iOS Engineer to help us support the new user base as well as work on new and exciting projects to push our missing for",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.0,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 136,
+      "score": 12.8,
+      "title": "Frontend Engineer",
+      "company": "Mobena",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 376,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/mobena-frontend-engineer",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0170/9402/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> New York, NY\n    <br /><strong>URL:</strong> <a href=\"https://mobena.co/\">https://mobena.co/</a>\n</p>\n\n<p class=\"MsoNormal\">Mobena is a three-person, remote-first startup building the \u201cevolution\u201d of multi-generational tax/estate planning software, targeting the advisors of America\u2019s 2 million wealthiest families. We\u2019re currently ",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.0,
+        "remote": 0.5
+      }
+    },
+    {
+      "rank": 137,
+      "score": 12.8,
+      "title": "Senior Independent Product Manager/Product Designer ($90-$170/hr)",
+      "company": "A.Team",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "posted_days_ago": 711,
+      "source": "weworkremotely",
+      "url": "https://weworkremotely.com/remote-jobs/a-team-senior-independent-product-manager-product-designer-90-170-hr",
+      "description": "<img src=\"https://we-work-remotely.imgix.net/logos/0071/4151/logo.gif?ixlib=rails-4.0.0&w=50&h=50&dpr=2&fit=fill&auto=compress\" />\n\n<p>\n  <strong>Headquarters:</strong> NYC, SF, and TLV\n    <br /><strong>URL:</strong> <a href=\"https://build.a.team/wwrfastrackreferral\">https://build.a.team/wwrfastrackreferral</a>\n</p>\n\n<div>Imagine choosing your projects, collaborating with the best, and keeping every dollar you earn.<br><br></div><div><br>At A\u00b7Team, we\u2019ve turned this vision into reality for top-",
+      "scores": {
+        "relevance": 0.0,
+        "salary": 0.35,
+        "recency": 0.0,
+        "remote": 0.5
+      }
+    }
+  ]
+}

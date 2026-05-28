@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────
+#  Job Search Configuration
+#  Edit this file, then run: python main.py
+# ─────────────────────────────────────────────
+
+# What role are you searching for?
+role: "RTL Design Engineer"
+
+# Where? Use "Remote" or a city like "San Francisco, CA"
+location: "Remote"
+
+# Prefer remote/hybrid roles? (true / false)
+prefer_remote: false
+
+# Years of experience you have (used to filter out intern/junior/senior mismatches)
+# Set to 0 to ignore experience matching
+experience_years: 3
+
+# Minimum salary in USD (set to 0 to ignore)
+salary_min: 100000
+
+# How many results to fetch per source
+results_per_source: 50
+
+# Only show jobs posted within this many hours (0 = no filter, show all)
+posted_within_hours: 0
+
+# ── Source toggles (true = on, false = off) ────────────────────────────────
+sources:
+  linkedin: true        # free — via python-jobspy
+  glassdoor: true       # free — via python-jobspy
+  jobicy: true          # free — public REST API
+  remoteok: true        # free — public JSON API
+  weworkremotely: true  # free — public RSS feed
+  indeed: true          # paid — via Anakin Wire (requires Anakin credits)
+
+# How many top results to display in the final ranked table
+top_n: 50
+
+# Ranking weights (must add up to 1.0)
+ranking_weights:
+  relevance: 0.35
+  salary: 0.25
+  recency: 0.25
+  remote: 0.15

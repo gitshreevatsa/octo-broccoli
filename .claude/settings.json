@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.anakin.io)",
+      "Bash(python main.py)"
+    ]
+  }
+}
