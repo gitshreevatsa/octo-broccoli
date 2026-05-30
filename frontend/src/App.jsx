@@ -1,18 +1,30 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import SearchForm from './components/SearchForm.jsx'
 import ProgressStepper from './components/ProgressStepper.jsx'
 import ResultsTable from './components/ResultsTable.jsx'
 
 export default function App() {
-  const [loading, setLoading]     = useState(false)
-  const [events, setEvents]       = useState([])
-  const [jobs, setJobs]           = useState(null)
-  const [currentRole, setRole]    = useState('')
-  // Session-only history — cleared on page refresh
+  const [loading, setLoading]   = useState(false)
+  const [ranking, setRanking]   = useState(false)
+  const [events, setEvents]     = useState([])
+  const [jobs, setJobs]         = useState(null)
+  const [currentRole, setRole]  = useState('')
   const [sessionHistory, setSessionHistory] = useState([])
+
+  const [dark, setDark] = useState(() => {
+    const saved = localStorage.getItem('theme')
+    if (saved) return saved === 'dark'
+    return window.matchMedia('(prefers-color-scheme: dark)').matches
+  })
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('light', !dark)
+    localStorage.setItem('theme', dark ? 'dark' : 'light')
+  }, [dark])
 
   async function handleSearch(config) {
     setLoading(true)
+    setRanking(false)
     setEvents([])
     setJobs(null)
     setRole(config.role)
@@ -35,16 +47,33 @@ export default function App() {
     const es = new EventSource(`/api/search/${searchId}/stream`)
     es.onmessage = async (e) => {
       const event = JSON.parse(e.data)
+
+      // Stream partial results into the table immediately as each source finishes
+      if (event.type === 'partial') {
+        setJobs(prev => {
+          const existing = prev || []
+          const seen = new Set(existing.map(j => j.url))
+          const fresh = event.jobs.filter(j => !seen.has(j.url))
+          return [...existing, ...fresh]
+        })
+        return
+      }
+
+      if (event.type === 'step' && event.message?.toLowerCase().includes('ranking')) {
+        setRanking(true)
+      }
+
       setEvents(prev => [...prev, event])
 
       if (event.type === 'done') {
         es.close()
+        setRanking(false)
         try {
           const res = await fetch(`/api/search/${searchId}/results`)
           const data = await res.json()
           const ranked = data.jobs || []
           setJobs(ranked)
-          // Add to session history
+          setEvents([])
           setSessionHistory(prev => [{
             id: searchId,
             role: config.role,
@@ -69,8 +98,15 @@ export default function App() {
       <aside style={s.sidebar}>
         <div style={s.sidebarTop}>
           <div style={s.brand}>
-            <span style={s.brandIcon}>⚡</span>
+            <img src="/logo.svg" alt="Job Searcher logo" style={s.brandImg} />
             <span style={s.brandName}>Job Searcher</span>
+            <button
+              onClick={() => setDark(d => !d)}
+              style={s.themeBtn}
+              title={dark ? 'Switch to light mode' : 'Switch to dark mode'}
+            >
+              {dark ? '☀️' : '🌙'}
+            </button>
           </div>
           <SearchForm onSubmit={handleSearch} loading={loading} />
         </div>
@@ -97,31 +133,30 @@ export default function App() {
       <main style={s.main}>
         {!jobs && events.length === 0 && (
           <div style={s.empty}>
-            <div style={s.emptyIcon}>🔍</div>
+            <img src="/logo.svg" alt="Job Searcher" style={s.emptyLogo} />
             <div style={s.emptyTitle}>Start a search</div>
             <div style={s.emptyText}>Fill in the role and filters on the left, then hit Search Jobs.</div>
           </div>
         )}
 
-        {events.length > 0 && (
-          <ProgressStepper events={events} />
-        )}
+        {events.length > 0 && <ProgressStepper events={events} />}
 
         {jobs && (
-          <div style={{ animation: 'fadeIn 0.2s ease' }}>
+          <div style={{ animation: jobs.length > 0 && !loading ? 'fadeIn 0.2s ease' : undefined }}>
             <div style={s.resultsHeader}>
               <div style={{ display: 'flex', alignItems: 'baseline', gap: 12 }}>
                 <span style={s.resultsTitle}>{currentRole}</span>
-                <span style={s.resultsCount}>{jobs.length} jobs ranked</span>
+                <span style={s.resultsCount}>
+                  {jobs.length} jobs{ranking ? ' · ranking…' : !loading ? ' ranked' : ''}
+                </span>
               </div>
-              <button
-                onClick={() => { setJobs(null); setEvents([]) }}
-                style={s.clearBtn}
-              >
-                ← New Search
-              </button>
+              {!loading && (
+                <button onClick={() => { setJobs(null); setEvents([]) }} style={s.clearBtn}>
+                  ← New Search
+                </button>
+              )}
             </div>
-            <ResultsTable jobs={jobs} />
+            <ResultsTable jobs={jobs} ranking={ranking} />
           </div>
         )}
       </main>
@@ -155,8 +190,16 @@ const s = {
     borderBottom: '1px solid var(--border)',
     marginBottom: 4,
   },
-  brandIcon: { fontSize: 18 },
-  brandName: { fontWeight: 700, fontSize: 15, letterSpacing: '-0.02em' },
+  brandImg: { width: 24, height: 24, borderRadius: 6, flexShrink: 0, objectFit: 'cover' },
+  brandName: { fontWeight: 700, fontSize: 15, letterSpacing: '-0.02em', flex: 1 },
+  themeBtn: {
+    background: 'transparent',
+    border: 'none',
+    fontSize: 16,
+    padding: '2px 4px',
+    borderRadius: 6,
+    lineHeight: 1,
+  },
   history: {
     borderTop: '1px solid var(--border)',
     padding: '12px 0',
@@ -199,7 +242,7 @@ const s = {
     color: 'var(--text-dim)',
     textAlign: 'center',
   },
-  emptyIcon: { fontSize: 40, marginBottom: 4 },
+  emptyLogo: { width: 72, height: 72, borderRadius: 18, objectFit: 'cover', marginBottom: 4, opacity: 0.85 },
   emptyTitle: { fontSize: 18, fontWeight: 600, color: 'var(--text)' },
   emptyText: { fontSize: 14, maxWidth: 300, lineHeight: 1.6 },
   resultsHeader: {

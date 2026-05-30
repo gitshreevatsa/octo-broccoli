@@ -184,19 +184,14 @@ async def _expand_role(role: str) -> list[str]:
 
 # ── OpenAI relevance scoring ──────────────────────────────────────────────────
 
-_RELEVANCE_PROMPT = """\
-You are evaluating how well a job listing matches a candidate's target role.
+_BATCH_RELEVANCE_PROMPT = """\
+You are evaluating job listings against a candidate's target role.
 
 Target role: {role}
 Candidate experience: {experience}
 
 Known equivalent / closely related titles (treat any of these as a strong match):
 {equivalents}
-
-Job:
-  Title: {title}
-  Company: {company}
-  Description: {description}
 
 Scoring guide:
   1.0 = exact match or equivalent title, experience level aligns
@@ -210,48 +205,83 @@ Experience matching rules:
   - If candidate has {experience} and the listing is VP/Director/C-suite, score ≤ 0.3
   - A ±2 year mismatch is acceptable, do not penalise
 
-Reply ONLY with JSON: {{"score": <float>, "reason": "<10 words max>"}}"""
+Jobs to score:
+{jobs_text}
+
+Reply ONLY with a JSON array in the same order, e.g.:
+[{{"id": 0, "score": 0.9}}, {{"id": 1, "score": 0.3}}]"""
 
 
-async def _relevance_score(job: Job, role: str, equivalents: list[str], experience_years: int) -> float:
+def _title_prescreen(job: Job, role: str, equivalents: list[str]) -> Optional[float]:
+    """Return a score without an API call when the title is an obvious match or miss."""
+    title_lower = job.title.lower()
+    role_lower = role.lower()
+    eq_lower = [e.lower() for e in equivalents]
+
+    # Obvious match: title contains the role or one of the equivalents
+    if role_lower in title_lower or any(eq in title_lower for eq in eq_lower):
+        return 0.9
+
+    # Obvious non-match: title contains a clearly unrelated seniority/type marker
+    # and none of the role keywords appear anywhere
+    role_words = set(role_lower.split())
+    title_words = set(title_lower.split())
+    if not role_words & title_words and not any(
+        any(rw in eq for rw in role_words) for eq in eq_lower
+    ):
+        non_tech_markers = {"driver", "nurse", "teacher", "accountant", "chef", "cleaner"}
+        if title_words & non_tech_markers:
+            return 0.05
+
+    return None  # ambiguous — needs API
+
+
+async def _batch_relevance_scores(jobs: list[Job], role: str, equivalents: list[str], experience_years: int) -> list[float]:
     eq_text = "\n".join(f"  - {t}" for t in equivalents) if equivalents else "  (none listed)"
     exp_text = f"{experience_years} years" if experience_years > 0 else "not specified"
+    jobs_text = "\n".join(
+        f'  {{"id": {i}, "title": "{j.title}", "company": "{j.company}", "snippet": "{j.description[:200].replace(chr(10), " ")}"}}'
+        for i, j in enumerate(jobs)
+    )
     try:
         resp = await _get_client().chat.completions.create(
             model="gpt-4o-mini",
-            max_tokens=80,
-            response_format={"type": "json_object"},
+            max_tokens=len(jobs) * 30 + 50,
             messages=[
-                {"role": "system", "content": "Job relevance evaluator. Reply only with the requested JSON."},
-                {"role": "user", "content": _RELEVANCE_PROMPT.format(
+                {"role": "system", "content": "Job relevance evaluator. Reply only with the requested JSON array."},
+                {"role": "user", "content": _BATCH_RELEVANCE_PROMPT.format(
                     role=role,
                     experience=exp_text,
                     equivalents=eq_text,
-                    title=job.title,
-                    company=job.company,
-                    description=job.description[:600],
+                    jobs_text=jobs_text,
                 )},
             ],
         )
-        data = json.loads(resp.choices[0].message.content)
-        return max(0.0, min(1.0, float(data.get("score", 0.5))))
+        raw = resp.choices[0].message.content or "[]"
+        # Strip markdown code fences if present
+        raw = re.sub(r"```[a-z]*\n?", "", raw).strip()
+        data = json.loads(raw)
+        scores = {item["id"]: float(item["score"]) for item in data}
+        return [max(0.0, min(1.0, scores.get(i, 0.5))) for i in range(len(jobs))]
     except Exception:
-        return 0.5
+        return [0.5] * len(jobs)
 
 
 # ── Batch ranking ─────────────────────────────────────────────────────────────
+
+BATCH_SIZE = 50
+PRE_RANK_CAP = 300
+
 
 async def rank_jobs(jobs: list[Job], config: SearchConfig) -> list[Job]:
     # 1. De-duplicate
     jobs = deduplicate(jobs)
 
     weights = config.ranking_weights
-    # Completeness is a bonus weight on top of the four main signals
     w_rel  = weights.get("relevance", 0.35)
     w_sal  = weights.get("salary", 0.25)
     w_rec  = weights.get("recency", 0.25)
     w_rem  = weights.get("remote", 0.15) if config.prefer_remote else 0.0
-    # Normalise so weights always sum to 1
     total_w = w_rel + w_sal + w_rec + w_rem
     w_rel, w_sal, w_rec, w_rem = (w / total_w for w in (w_rel, w_sal, w_rec, w_rem))
 
@@ -260,15 +290,38 @@ async def rank_jobs(jobs: list[Job], config: SearchConfig) -> list[Job]:
     if equivalents:
         print(f"[ranker] equivalent titles: {', '.join(equivalents[:6])}{'…' if len(equivalents) > 6 else ''}")
 
-    # 3. Score relevance in parallel (batches of 10)
+    # 3. Pre-screen by title (no API call), batch the rest
     exp = config.experience_years
+    rel_scores: list[float] = [0.5] * len(jobs)
+    needs_api: list[int] = []
 
-    async def _chunk(batch):
-        return await asyncio.gather(*[_relevance_score(j, config.role, equivalents, exp) for j in batch])
+    for i, job in enumerate(jobs):
+        pre = _title_prescreen(job, config.role, equivalents)
+        if pre is not None:
+            rel_scores[i] = pre
+        else:
+            needs_api.append(i)
 
-    rel_scores: list[float] = []
-    for i in range(0, len(jobs), 10):
-        rel_scores.extend(await _chunk(jobs[i:i + 10]))
+    # Cap to PRE_RANK_CAP freshest/most complete jobs before hitting the API
+    if len(needs_api) > PRE_RANK_CAP:
+        needs_api.sort(key=lambda i: (_score_recency(jobs[i]) + _score_completeness(jobs[i])), reverse=True)
+        skipped = needs_api[PRE_RANK_CAP:]
+        needs_api = needs_api[:PRE_RANK_CAP]
+        for i in skipped:
+            rel_scores[i] = 0.3  # stale/empty listings get a low default
+
+    print(f"[ranker] pre-screened {len(jobs) - len(needs_api)}/{len(jobs)} jobs by title — {len(needs_api)} sent to API in parallel batches")
+
+    # Run all batches in parallel
+    api_jobs = [jobs[i] for i in needs_api]
+    batches = [api_jobs[s:s + BATCH_SIZE] for s in range(0, len(api_jobs), BATCH_SIZE)]
+    batch_results = await asyncio.gather(*[
+        _batch_relevance_scores(b, config.role, equivalents, exp) for b in batches
+    ])
+    api_scores = [score for batch in batch_results for score in batch]
+
+    for idx, score in zip(needs_api, api_scores):
+        rel_scores[idx] = score
 
     # 4. Compute total score for each job
     for job, rel in zip(jobs, rel_scores):

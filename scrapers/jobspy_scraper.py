@@ -5,6 +5,15 @@ import anyio
 
 from models import Job, SearchConfig
 
+# All sites supported by python-jobspy
+JOBSPY_SITES = {
+    "linkedin":      "linkedin",
+    "indeed":        "indeed",
+    "glassdoor":     "glassdoor",
+    "ziprecruiter":  "zip_recruiter",
+    "google":        "google",
+}
+
 
 def _safe_int(value) -> Optional[int]:
     try:
@@ -26,10 +35,10 @@ def _parse_date(value) -> Optional[datetime]:
 
 def _row_to_job(row, source: str) -> Optional[Job]:
     try:
-        title = str(row.get("title", "")).strip()
+        title   = str(row.get("title", "")).strip()
         company = str(row.get("company", "")).strip()
         location = str(row.get("location", "")).strip()
-        url = str(row.get("job_url", "")).strip()
+        url     = str(row.get("job_url", "")).strip()
 
         if not title or not company or not url:
             return None
@@ -57,38 +66,31 @@ def _row_to_job(row, source: str) -> Optional[Job]:
 
 
 async def scrape_jobspy(config: SearchConfig) -> list[Job]:
-    """Scrape LinkedIn, Indeed, and Glassdoor via python-jobspy."""
-    site_map = {
-        "linkedin": "linkedin",
-        "indeed": "indeed",
-        "glassdoor": "glassdoor",
-    }
-
+    """Scrape all jobspy-supported boards: LinkedIn, Glassdoor, Indeed, ZipRecruiter, Google Jobs."""
     active_sites = [
-        site_map[key]
-        for key in ("linkedin", "indeed", "glassdoor")
-        if config.sources.get(key, True)
+        jobspy_name
+        for key, jobspy_name in JOBSPY_SITES.items()
+        if config.sources.get(key, False)
     ]
 
     if not active_sites:
         return []
 
-    def _run_jobspy():
+    def _run():
         from jobspy import scrape_jobs
-        import pandas as pd
 
         df = scrape_jobs(
             site_name=active_sites,
             search_term=config.role,
             location=config.location,
             results_wanted=config.results_per_source,
-            hours_old=72 * 7,  # last 3 weeks
+            hours_old=72 * 7,
             country_indeed="USA",
         )
         return df
 
     try:
-        df = await anyio.to_thread.run_sync(_run_jobspy)
+        df = await anyio.to_thread.run_sync(_run)
     except Exception as e:
         print(f"[jobspy] scrape failed: {e}")
         return []
@@ -96,6 +98,8 @@ async def scrape_jobspy(config: SearchConfig) -> list[Job]:
     jobs: list[Job] = []
     for _, row in df.iterrows():
         source = str(row.get("site", "unknown"))
+        # Map jobspy internal names back to our source names
+        source = {"zip_recruiter": "ziprecruiter"}.get(source, source)
         job = _row_to_job(row.to_dict(), source)
         if job:
             jobs.append(job)

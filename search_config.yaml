@@ -3,40 +3,54 @@
 #  Edit this file, then run: python main.py
 # ─────────────────────────────────────────────
 
-# What role are you searching for?
 role: "RTL Design Engineer"
-
-# Where? Use "Remote" or a city like "San Francisco, CA"
 location: "Remote"
-
-# Prefer remote/hybrid roles? (true / false)
 prefer_remote: false
-
-# Years of experience you have (used to filter out intern/junior/senior mismatches)
-# Set to 0 to ignore experience matching
 experience_years: 3
 
-# Minimum salary — set currency below, enter the amount in that currency
+# Minimum salary — enter in your currency
 salary_min: 0
-salary_currency: "USD"   # USD | INR | GBP | EUR | CAD | AUD | SGD | AED
+salary_currency: "USD" # USD | INR | GBP | EUR | CAD | AUD | SGD | AED
 
 # How many results to fetch per source
 results_per_source: 50
 
-# Only show jobs posted within this many hours (0 = no filter, show all)
+# Only show jobs posted within this many hours (0 = no filter)
 posted_within_hours: 0
 
-# ── Source toggles (true = on, false = off) ────────────────────────────────
-sources:
-  linkedin: true        # free — via python-jobspy
-  glassdoor: true       # free — via python-jobspy
-  jobicy: true          # free — public REST API
-  remoteok: true        # free — public JSON API
-  weworkremotely: true  # free — public RSS feed
-  indeed: true          # paid — via Anakin Wire (requires Anakin credits)
+# ── Pinned ATS companies ───────────────────────────────────────────────────────
+# Companies to ALWAYS check regardless of search engine results.
+# Add slugs you know are relevant — handles small/new companies DDG doesn't index.
+# Format: slug as it appears in the URL
+#   boards.greenhouse.io/{slug}         → add under greenhouse_slugs
+#   job-boards.eu.greenhouse.io/{slug}  → add under greenhouse_eu_slugs
+#   jobs.lever.co/{slug}                → add under lever_slugs
+#   jobs.ashbyhq.com/{slug}             → add under ashby_slugs
 
-# How many top results to display in the final ranked table
-top_n: 50
+pinned_companies:
+  greenhouse_slugs: [] # e.g. ["stripe", "openai"]
+  greenhouse_eu_slugs: []
+  lever_slugs: []
+  ashby_slugs: []
+
+# ── Sources ────────────────────────────────────────────────────────────────────
+sources:
+  # via python-jobspy (free)
+  linkedin: true
+  glassdoor: true
+  ziprecruiter: true
+  google: true
+
+  # via Anakin Wire (requires credits)
+  indeed: true
+  jobicy: true
+  remoteok: true
+  weworkremotely: true
+
+  # ATS boards — DuckDuckGo discovery + public APIs (free)
+  greenhouse: true
+  lever: true
+  ashby: true
 
 # Ranking weights (must add up to 1.0)
 ranking_weights:

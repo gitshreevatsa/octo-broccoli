@@ -50,6 +50,12 @@ class SearchConfig(BaseModel):
     sources: dict[str, bool] = Field(default_factory=dict)
     experience_years: int = 0
     posted_within_hours: int = 0
+    pinned_companies: dict[str, list[str]] = Field(default_factory=lambda: {
+        "greenhouse_slugs":    [],
+        "greenhouse_eu_slugs": [],
+        "lever_slugs":         [],
+        "ashby_slugs":         [],
+    })
     ranking_weights: dict[str, float] = Field(
         default_factory=lambda: {
             "relevance": 0.35,

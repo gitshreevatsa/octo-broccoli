@@ -10,6 +10,14 @@ const SOURCE_COLORS = {
 }
 
 function ScoreBar({ score }) {
+  if (score === null || score === undefined) {
+    return (
+      <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+        <div style={{ width: 60, height: 6, background: 'var(--surface2)', borderRadius: 3 }} />
+        <span style={{ color: 'var(--text-dim)', fontSize: 12 }}>…</span>
+      </div>
+    )
+  }
   const pct = score / 100
   const color = pct >= 0.75 ? 'var(--green)' : pct >= 0.5 ? 'var(--yellow)' : 'var(--red)'
   return (

@@ -60,8 +60,12 @@ class SearchRequest(BaseModel):
     results_per_source: int = 15
     posted_within_hours: int = 0
     sources: dict[str, bool] = {
-        "linkedin": True, "glassdoor": True, "indeed": True,
-        "jobicy": True,   "remoteok": True,  "weworkremotely": True,
+        # jobspy
+        "linkedin": True, "glassdoor": True, "ziprecruiter": True, "google": True,
+        # Anakin Wire
+        "indeed": True, "jobicy": True, "remoteok": True, "weworkremotely": True,
+        # ATS (DuckDuckGo discovery)
+        "greenhouse": True, "lever": True, "ashby": True,
     }
     ranking_weights: dict[str, float] = {
         "relevance": 0.35, "salary": 0.25, "recency": 0.25, "remote": 0.15,
@@ -73,8 +77,11 @@ class SearchRequest(BaseModel):
 async def _run(search_id: str, config: SearchConfig) -> None:
     queue = _queues[search_id]
 
-    async def progress(event_type: str, message: str) -> None:
-        await queue.put({"type": event_type, "message": message})
+    async def progress(event_type: str, data) -> None:
+        if event_type == "partial":
+            await queue.put({"type": "partial", "jobs": data})
+        else:
+            await queue.put({"type": event_type, "message": str(data)})
 
     try:
         log.info("Search %s started: %s", search_id[:8], config.role)

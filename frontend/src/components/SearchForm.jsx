@@ -1,10 +1,24 @@
 import { useState } from 'react'
 
-const SOURCES = ['linkedin', 'glassdoor', 'indeed', 'jobicy', 'remoteok', 'weworkremotely']
+const SOURCES = [
+  'linkedin', 'glassdoor', 'ziprecruiter', 'google',
+  'indeed', 'jobicy', 'remoteok', 'weworkremotely',
+  'greenhouse', 'lever', 'ashby',
+]
 const SOURCE_LABELS = {
-  linkedin: 'LinkedIn', glassdoor: 'Glassdoor', indeed: 'Indeed',
-  jobicy: 'Jobicy', remoteok: 'RemoteOK', weworkremotely: 'WeWorkRemotely',
+  linkedin: 'LinkedIn', glassdoor: 'Glassdoor',
+  ziprecruiter: 'ZipRecruiter', google: 'Google Jobs',
+  indeed: 'Indeed', jobicy: 'Jobicy',
+  remoteok: 'RemoteOK', weworkremotely: 'WeWorkRemotely',
+  greenhouse: 'Greenhouse', lever: 'Lever', ashby: 'Ashby',
 }
+
+// Group sources by type for visual separation
+const SOURCE_GROUPS = [
+  { label: 'Job Boards',  keys: ['linkedin', 'glassdoor', 'ziprecruiter', 'google'] },
+  { label: 'Remote',      keys: ['indeed', 'jobicy', 'remoteok', 'weworkremotely'] },
+  { label: 'ATS Boards',  keys: ['greenhouse', 'lever', 'ashby'] },
+]
 
 const CURRENCIES = ['USD', 'INR', 'GBP', 'EUR', 'CAD', 'AUD', 'SGD', 'AED']
 
@@ -172,23 +186,28 @@ export default function SearchForm({ onSubmit, loading }) {
             {allOn ? 'Deselect all' : 'Select all'}
           </button>
         </div>
-        <div style={s.chips}>
-          {SOURCES.map(src => {
-            const on = form.sources[src]
-            return (
-              <button key={src} type="button" onClick={() => toggleSource(src)}
-                style={{
-                  ...s.chip,
-                  background: on ? 'rgba(96,165,250,0.1)' : 'transparent',
-                  color: on ? 'var(--accent)' : 'var(--text-dim)',
-                  borderColor: on ? 'rgba(96,165,250,0.35)' : 'var(--border)',
-                  fontWeight: on ? 600 : 400,
-                }}>
-                {SOURCE_LABELS[src]}
-              </button>
-            )
-          })}
-        </div>
+        {SOURCE_GROUPS.map(group => (
+          <div key={group.label} style={{ marginBottom: 10 }}>
+            <div style={s.groupTag}>{group.label}</div>
+            <div style={s.chips}>
+              {group.keys.map(src => {
+                const on = form.sources[src]
+                return (
+                  <button key={src} type="button" onClick={() => toggleSource(src)}
+                    style={{
+                      ...s.chip,
+                      background: on ? 'rgba(96,165,250,0.1)' : 'transparent',
+                      color: on ? 'var(--accent)' : 'var(--text-dim)',
+                      borderColor: on ? 'rgba(96,165,250,0.35)' : 'var(--border)',
+                      fontWeight: on ? 600 : 400,
+                    }}>
+                    {SOURCE_LABELS[src]}
+                  </button>
+                )
+              })}
+            </div>
+          </div>
+        ))}
       </div>
 
       {/* ── Submit ── */}
@@ -251,6 +270,14 @@ const s = {
     background: '#fff',
     transition: 'transform 0.18s',
     boxShadow: '0 1px 2px rgba(0,0,0,0.4)',
+  },
+  groupTag: {
+    fontSize: 10,
+    fontWeight: 600,
+    letterSpacing: '0.06em',
+    textTransform: 'uppercase',
+    color: 'var(--text-dim2)',
+    marginBottom: 6,
   },
   chips: { display: 'flex', flexWrap: 'wrap', gap: 6 },
   chip: {

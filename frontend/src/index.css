@@ -19,6 +19,23 @@
   --radius-sm: 7px;
 }
 
+:root.light {
+  --bg:        #f4f5f7;
+  --surface:   #ffffff;
+  --surface2:  #f0f1f4;
+  --surface3:  #e8eaf0;
+  --border:    #dde0ea;
+  --border2:   #c8ccda;
+  --accent:    #2563eb;
+  --accent-h:  #1d4ed8;
+  --text:      #111827;
+  --text-dim:  #6b7280;
+  --text-dim2: #9ca3af;
+  --green:     #16a34a;
+  --yellow:    #d97706;
+  --red:       #dc2626;
+}
+
 html { font-size: 14px; }
 
 body {
