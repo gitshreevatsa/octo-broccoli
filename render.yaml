@@ -18,4 +18,4 @@ services:
       - key: ANAKIN_API_KEY
         sync: false          # set manually in Render dashboard
       - key: ALLOWED_ORIGINS
-        value: https://job-searcher.onrender.com   # update to your actual domain
+        value: https://octo-broccoli.onrender.com  # update to your actual domain

@@ -204,12 +204,20 @@ async def get_history_file(filename: str):
 
 
 # ── Serve React frontend (production) ────────────────────────────────────────
-# Mount AFTER all /api routes so they take priority.
+# Registered AFTER all /api routes so API always takes priority.
 
 if FRONTEND_DIR.exists():
-    app.mount("/assets", StaticFiles(directory=FRONTEND_DIR / "assets"), name="assets")
+    @app.get("/", include_in_schema=False)
+    async def root():
+        return FileResponse(FRONTEND_DIR / "index.html")
 
     @app.get("/{full_path:path}", include_in_schema=False)
     async def spa_fallback(full_path: str):
-        """Return index.html for any non-API path so React Router works."""
+        # Serve the real file if it exists (JS, CSS, favicon, etc.)
+        candidate = FRONTEND_DIR / full_path
+        if candidate.exists() and candidate.is_file():
+            return FileResponse(candidate)
+        # Everything else → index.html (SPA client-side routing)
         return FileResponse(FRONTEND_DIR / "index.html")
+else:
+    log.warning("Frontend not built — FRONTEND_DIR %s not found", FRONTEND_DIR)
