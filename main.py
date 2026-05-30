@@ -42,18 +42,18 @@ def _save_json(jobs: list, config) -> None:
     records = []
     for job in jobs:
         records.append({
-            "rank":        jobs.index(job) + 1,
-            "score":       round(job.total_score * 100, 1),
-            "title":       job.title,
-            "company":     job.company,
-            "location":    job.location,
-            "remote":      job.is_remote,
-            "salary_min":  job.salary_min,
-            "salary_max":  job.salary_max,
+            "rank":            jobs.index(job) + 1,
+            "score":           round(job.total_score * 100, 1),
+            "title":           job.title,
+            "company":         job.company,
+            "location":        job.location,
+            "remote":          job.is_remote,
+            "salary_min":      job.salary_min,
+            "salary_max":      job.salary_max,
             "posted_days_ago": job.days_ago,
-            "source":      job.source,
-            "url":         job.url,
-            "description": job.description[:500],
+            "source":          job.source,
+            "url":             job.url,
+            "description":     job.description[:500],
             "scores": {
                 "relevance": round(job.score_relevance, 3),
                 "salary":    round(job.score_salary, 3),
@@ -64,6 +64,10 @@ def _save_json(jobs: list, config) -> None:
 
     path.write_text(json.dumps({"role": config.role, "searched_at": timestamp, "jobs": records}, indent=2))
     console.print(f"\n[dim]Results saved → {path}[/dim]")
+
+
+# Boards Anakin Wire covers — used as primary; native scrapers are fallback
+ANAKIN_BOARDS = {"indeed", "jobicy", "remoteok", "weworkremotely"}
 
 
 async def run():
@@ -79,29 +83,48 @@ async def run():
         transient=True,
     ) as progress:
         t1 = progress.add_task("Scraping LinkedIn & Glassdoor…", total=None)
-        t2 = progress.add_task("Scraping Jobicy / RemoteOK / WeWorkRemotely…", total=None)
-        t3 = progress.add_task("Scraping Indeed via Anakin Wire…", total=None)
+        t2 = progress.add_task("Scraping via Anakin Wire (Indeed / Jobicy / RemoteOK / WWR)…", total=None)
 
-        async def _skip() -> list:
-            return []
-
-        (jobspy_jobs, (jobicy_jobs, remoteok_jobs, wwr_jobs), indeed_jobs) = await asyncio.gather(
+        jobspy_jobs, anakin_jobs = await asyncio.gather(
             scrape_jobspy(config),
-            asyncio.gather(
-                scrape_jobicy(config)        if config.sources.get("jobicy") else _skip(),
-                scrape_remoteok(config)      if config.sources.get("remoteok") else _skip(),
-                scrape_weworkremotely(config) if config.sources.get("weworkremotely") else _skip(),
-            ),
             scrape_anakin(config),
         )
 
+        # Tally Anakin results per board so we know which need native fallback
+        anakin_by_board: dict[str, int] = {}
+        for job in anakin_jobs:
+            anakin_by_board[job.source] = anakin_by_board.get(job.source, 0) + 1
+
         progress.update(t1, description=f"[green]LinkedIn/Glassdoor → {len(jobspy_jobs)} jobs[/green]")
         progress.update(t2, description=(
-            f"[green]Jobicy ({len(jobicy_jobs)}) · RemoteOK ({len(remoteok_jobs)}) · WWR ({len(wwr_jobs)})[/green]"
+            f"[green]Anakin → Indeed({anakin_by_board.get('indeed', 0)}) "
+            f"Jobicy({anakin_by_board.get('jobicy', 0)}) "
+            f"RemoteOK({anakin_by_board.get('remoteok', 0)}) "
+            f"WWR({anakin_by_board.get('weworkremotely', 0)})[/green]"
         ))
-        progress.update(t3, description=f"[green]Indeed/Anakin → {len(indeed_jobs)} jobs[/green]")
 
-        all_jobs = jobspy_jobs + jobicy_jobs + remoteok_jobs + wwr_jobs + indeed_jobs
+        # Native fallback: only run for boards where Anakin returned nothing
+        async def _skip():
+            return []
+
+        fallback_needed = {
+            board for board in ANAKIN_BOARDS
+            if config.sources.get(board, True) and anakin_by_board.get(board, 0) == 0
+        }
+
+        if fallback_needed:
+            t3 = progress.add_task(f"Native fallback for: {', '.join(sorted(fallback_needed))}…", total=None)
+            jobicy_jobs, remoteok_jobs, wwr_jobs = await asyncio.gather(
+                scrape_jobicy(config)         if "jobicy" in fallback_needed else _skip(),
+                scrape_remoteok(config)       if "remoteok" in fallback_needed else _skip(),
+                scrape_weworkremotely(config) if "weworkremotely" in fallback_needed else _skip(),
+            )
+            native_total = len(jobicy_jobs) + len(remoteok_jobs) + len(wwr_jobs)
+            progress.update(t3, description=f"[green]Native fallback → {native_total} jobs[/green]")
+        else:
+            jobicy_jobs = remoteok_jobs = wwr_jobs = []
+
+        all_jobs = jobspy_jobs + anakin_jobs + jobicy_jobs + remoteok_jobs + wwr_jobs
         console.print(f"[bold]Total scraped:[/bold] {len(all_jobs)} listings\n")
 
         if not all_jobs:

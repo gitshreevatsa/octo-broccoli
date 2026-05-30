@@ -1,0 +1,59 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:        #111318;
+  --surface:   #191c24;
+  --surface2:  #1e2130;
+  --surface3:  #242840;
+  --border:    #2a2f42;
+  --border2:   #333a54;
+  --accent:    #60a5fa;
+  --accent-h:  #3b82f6;
+  --text:      #e2e6f3;
+  --text-dim:  #6b7494;
+  --text-dim2: #3d4460;
+  --green:     #4ade80;
+  --yellow:    #fbbf24;
+  --red:       #f87171;
+  --radius:    10px;
+  --radius-sm: 7px;
+}
+
+html { font-size: 14px; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+button { cursor: pointer; font-family: inherit; border: none; outline: none; }
+
+input, select {
+  font-family: inherit;
+  font-size: 14px;
+  background: var(--surface2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 8px 11px;
+  width: 100%;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { -webkit-appearance: none; }
+input:focus, select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(96,165,250,0.1);
+}
+input::placeholder { color: var(--text-dim2); }
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+@keyframes spin   { to { transform: rotate(360deg); } }

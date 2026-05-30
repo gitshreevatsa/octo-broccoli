@@ -16,8 +16,9 @@ prefer_remote: false
 # Set to 0 to ignore experience matching
 experience_years: 3
 
-# Minimum salary in USD (set to 0 to ignore)
-salary_min: 100000
+# Minimum salary — set currency below, enter the amount in that currency
+salary_min: 0
+salary_currency: "USD"   # USD | INR | GBP | EUR | CAD | AUD | SGD | AED
 
 # How many results to fetch per source
 results_per_source: 50

@@ -45,6 +45,7 @@ class SearchConfig(BaseModel):
     location: str = "Remote"
     prefer_remote: bool = True
     salary_min: int = 0
+    salary_currency: str = "USD"
     results_per_source: int = 15
     sources: dict[str, bool] = Field(default_factory=dict)
     experience_years: int = 0

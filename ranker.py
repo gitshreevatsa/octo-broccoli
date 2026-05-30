@@ -51,15 +51,29 @@ def _richness(job: Job) -> int:
 
 # ── Salary scoring ────────────────────────────────────────────────────────────
 
-# Rough annual USD equivalents for common non-USD currencies (per-year context)
+# Conversion rates: currency → USD (approximate)
+CURRENCY_TO_USD: dict[str, float] = {
+    "USD": 1.0,
+    "INR": 1 / 84,
+    "GBP": 1.27,
+    "EUR": 1.09,
+    "CAD": 0.74,
+    "AUD": 0.65,
+    "SGD": 0.75,
+    "AED": 0.27,
+}
+
+# Signals found in job text to auto-detect currency
 _CURRENCY_SIGNALS = [
-    (r"₹",          1/83),    # Indian rupee → USD
-    (r"£",          1.27),    # GBP → USD
-    (r"€",          1.09),    # EUR → USD
-    (r"CAD|CA\$",   0.74),    # Canadian dollar
-    (r"AUD|A\$",    0.65),    # Australian dollar
-    (r"\ba month\b",12),      # monthly → annual
-    (r"\ba week\b", 52),      # weekly → annual
+    (r"₹",           1 / 84),  # Indian rupee
+    (r"£",           1.27),    # GBP
+    (r"€",           1.09),    # EUR
+    (r"CAD|CA\$",    0.74),    # Canadian dollar
+    (r"AUD|A\$",     0.65),    # Australian dollar
+    (r"SGD|S\$",     0.75),    # Singapore dollar
+    (r"AED|د\.إ",    0.27),    # UAE dirham
+    (r"\ba month\b", 12),      # monthly → annual multiplier
+    (r"\ba week\b",  52),      # weekly → annual multiplier
 ]
 
 def _normalize_salary_usd(job: Job) -> Optional[int]:
@@ -85,12 +99,15 @@ def _normalize_salary_usd(job: Job) -> Optional[int]:
     return int(effective * multiplier)
 
 
-def _score_salary(job: Job, salary_min_threshold: int) -> float:
+def _score_salary(job: Job, salary_min_threshold: int, salary_currency: str = "USD") -> float:
     usd = _normalize_salary_usd(job)
     if not usd:
-        return 0.35   # unknown — neutral-ish
-    if salary_min_threshold and usd < salary_min_threshold:
-        return 0.05   # below the user's floor
+        return 0.35
+    # Convert user's threshold to USD before comparing
+    rate = CURRENCY_TO_USD.get(salary_currency.upper(), 1.0)
+    threshold_usd = salary_min_threshold * rate
+    if threshold_usd and usd < threshold_usd:
+        return 0.05
     # Curve: $80k → 0.3, $150k → 0.75, $250k+ → 1.0
     return min(1.0, max(0.0, (usd - 60_000) / 210_000))
 
@@ -256,7 +273,7 @@ async def rank_jobs(jobs: list[Job], config: SearchConfig) -> list[Job]:
     # 4. Compute total score for each job
     for job, rel in zip(jobs, rel_scores):
         job.score_relevance = rel
-        job.score_salary    = _score_salary(job, config.salary_min)
+        job.score_salary    = _score_salary(job, config.salary_min, config.salary_currency)
         job.score_recency   = _score_recency(job)
         job.score_remote    = _score_remote(job, config.prefer_remote)
 
