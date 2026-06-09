@@ -13,12 +13,11 @@ export default function App() {
 
   const [dark, setDark] = useState(() => {
     const saved = localStorage.getItem('theme')
-    if (saved) return saved === 'dark'
-    return window.matchMedia('(prefers-color-scheme: dark)').matches
+    return saved ? saved === 'dark' : false
   })
 
   useEffect(() => {
-    document.documentElement.classList.toggle('light', !dark)
+    document.documentElement.classList.toggle('dark', dark)
     localStorage.setItem('theme', dark ? 'dark' : 'light')
   }, [dark])
 
@@ -100,13 +99,6 @@ export default function App() {
           <div style={s.brand}>
             <img src="/logo.svg" alt="Job Searcher logo" style={s.brandImg} />
             <span style={s.brandName}>Job Searcher</span>
-            <button
-              onClick={() => setDark(d => !d)}
-              style={s.themeBtn}
-              title={dark ? 'Switch to light mode' : 'Switch to dark mode'}
-            >
-              {dark ? '☀️' : '🌙'}
-            </button>
           </div>
           <SearchForm onSubmit={handleSearch} loading={loading} />
         </div>
@@ -127,6 +119,17 @@ export default function App() {
             ))}
           </div>
         )}
+
+        {/* Theme toggle pinned to sidebar bottom */}
+        <div style={s.sidebarFooter}>
+          <button
+            onClick={() => setDark(d => !d)}
+            style={s.themeBtn}
+            title={dark ? 'Switch to light mode' : 'Switch to dark mode'}
+          >
+            {dark ? '☀️' : '🌙'}
+          </button>
+        </div>
       </aside>
 
       {/* ── Main content ── */}
@@ -191,14 +194,21 @@ const s = {
     marginBottom: 4,
   },
   brandImg: { width: 24, height: 24, borderRadius: 6, flexShrink: 0, objectFit: 'cover' },
-  brandName: { fontWeight: 700, fontSize: 15, letterSpacing: '-0.02em', flex: 1 },
+  brandName: { fontWeight: 700, fontSize: 15, letterSpacing: '-0.02em' },
+  sidebarFooter: {
+    borderTop: '1px solid var(--border)',
+    padding: '10px 14px',
+    marginTop: 'auto',
+  },
   themeBtn: {
     background: 'transparent',
     border: 'none',
-    fontSize: 16,
-    padding: '2px 4px',
+    fontSize: 18,
+    padding: '4px',
     borderRadius: 6,
-    lineHeight: 1,
+    cursor: 'pointer',
+    opacity: 0.6,
+    transition: 'opacity 0.15s',
   },
   history: {
     borderTop: '1px solid var(--border)',
